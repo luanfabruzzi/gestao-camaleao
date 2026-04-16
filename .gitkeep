@@ -1,0 +1,21 @@
+# Dentro da pasta gc-desktop-app
+cd gc-desktop-app/src/main
+
+mkdir -p database security
+
+touch database/.gitkeep
+touch security/.gitkeep
+
+# Dentro do renderer
+cd ../../renderer
+mkdir -p components hooks
+touch components/.gitkeep
+touch hooks/.gitkeep
+
+# Na API de licenciamento
+cd ../../../gc-licensing-api/src
+mkdir -p controllers models routes services
+touch controllers/.gitkeep
+touch models/.gitkeep
+touch routes/.gitkeep
+touch services/.gitkeep
